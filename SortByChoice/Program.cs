@@ -3,6 +3,6 @@ using static Intrastructure;
 
 int[] arr = CreateArray(8);
 
-Show(arr);
+Show(arr, ". ");
 SelectionSort(arr);
-Show(arr);
+Show(arr, ", ");

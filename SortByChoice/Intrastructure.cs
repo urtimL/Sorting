@@ -8,8 +8,9 @@ public static class Intrastructure
                 .ToArray();
     }
 
-    public static void Show(int[] array)
+    public static void Show(int[] array, string Separator = ", ")
     {
-        WriteLine($"[{String.Join(", ", array)}]");
+        string autput = String.Join(Separator, array);
+        WriteLine($"[{autput}]");
     }
 }
